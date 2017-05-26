@@ -29,7 +29,7 @@ void CircularList::insertintoList(char value) {
     newPtr->data = value;
     //newPtr->nextPtr = NULL;
     
-    //guardar el head
+    //guardar el head 
     
     tempPtr = startNodeList;
     if (startNodeList == NULL) {
